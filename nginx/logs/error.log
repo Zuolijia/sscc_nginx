@@ -1,0 +1,1050 @@
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 13:59:06 [emerg] 2283#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 13:59:06 [emerg] 2283#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [emerg] 2283#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:06 [notice] 2283#0: signal process started
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 13:59:11 [emerg] 2285#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 13:59:11 [emerg] 2285#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:11 [emerg] 2285#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 13:59:16 [emerg] 2288#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.72.245", referrer: "http://192.168.72.245/hello"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.72.245", referrer: "http://192.168.72.245/hello"
+2015/09/01 13:59:16 [emerg] 2288#0: *1 empty!, client: 192.168.72.17, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.72.245", referrer: "http://192.168.72.245/hello"
+2015/09/01 13:59:16 [error] 2288#0: *1 open() "/home/zuolj/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.72.17, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.72.245", referrer: "http://192.168.72.245/hello"
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:02:07 [emerg] 2374#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:02:07 [emerg] 2374#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [emerg] 2374#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:07 [notice] 2374#0: signal process started
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:02:11 [emerg] 2377#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:02:11 [emerg] 2377#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:11 [emerg] 2377#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:02:15 [emerg] 2380#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:15 [emerg] 2380#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:15 [emerg] 2380#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:15 [emerg] 2380#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:15 [emerg] 2380#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:15 [emerg] 2380#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:15 [emerg] 2380#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:15 [emerg] 2380#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:16 [emerg] 2380#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:02:17 [emerg] 2380#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:07:06 [emerg] 2432#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:07:06 [emerg] 2432#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [emerg] 2432#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:06 [notice] 2432#0: signal process started
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:07:09 [emerg] 2435#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:07:09 [emerg] 2435#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:09 [emerg] 2435#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:07:14 [emerg] 2438#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:14 [emerg] 2438#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:14 [emerg] 2438#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:14 [emerg] 2438#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:14 [emerg] 2438#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:14 [emerg] 2438#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:14 [emerg] 2438#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:07:14 [emerg] 2438#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:08:18 [emerg] 2484#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:08:18 [emerg] 2484#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [emerg] 2484#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:18 [notice] 2484#0: signal process started
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:08:21 [emerg] 2487#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:08:21 [emerg] 2487#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:21 [emerg] 2487#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:08:28 [emerg] 2490#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:28 [emerg] 2490#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:28 [emerg] 2490#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:28 [emerg] 2490#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:28 [emerg] 2490#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:28 [emerg] 2490#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:28 [emerg] 2490#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:08:28 [emerg] 2490#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:13:18 [emerg] 2550#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:13:18 [emerg] 2550#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [emerg] 2550#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:18 [notice] 2550#0: signal process started
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:13:22 [emerg] 2553#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:13:22 [emerg] 2553#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:22 [emerg] 2553#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:13:25 [emerg] 2556#0: *1 ngx_http_hello_handler is called, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 string is not empty, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 body_data is NULL, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 els, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 Host->key: Host, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 Host->value: 192.168.72.245, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 User-Agent->key: User-Agent, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:13:25 [emerg] 2556#0: *1 User-Agent->value: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36, client: 192.168.72.17, server: localhost, request: "GET /hello HTTP/1.1", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 body_data is NULL, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 els, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 Host->key: Host, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 Host->value: 192.168.72.245, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 User-Agent->key: User-Agent, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:14:13 [emerg] 2556#0: *2 User-Agent->value: Wget/1.12 (linux-gnu), client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:16:26 [emerg] 2607#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:16:26 [emerg] 2607#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [emerg] 2607#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:26 [notice] 2607#0: signal process started
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 14:16:30 [emerg] 2609#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:16:30 [emerg] 2609#0: idex:1 in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:30 [emerg] 2609#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 14:16:36 [emerg] 2612#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 body_data is NULL, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 els, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 Host->key: Host, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 Host->value: 192.168.72.245, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 User-Agent->key: User-Agent, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 14:16:36 [emerg] 2612#0: *1 User-Agent->value: Wget/1.12 (linux-gnu), client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 16:57:35 [emerg] 3098#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [emerg] 3098#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:35 [notice] 3098#0: signal process started
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 16:57:39 [emerg] 3100#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:39 [emerg] 3100#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 16:57:45 [emerg] 3103#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:45 [emerg] 3103#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:45 [emerg] 3103#0: *1 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:45 [emerg] 3103#0: *1 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:45 [alert] 3102#0: worker process 3103 exited on signal 11 (core dumped)
+2015/09/01 16:57:46 [emerg] 3107#0: *2 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:46 [emerg] 3107#0: *2 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:46 [emerg] 3107#0: *2 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:46 [emerg] 3107#0: *2 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:46 [alert] 3102#0: worker process 3107 exited on signal 11 (core dumped)
+2015/09/01 16:57:48 [emerg] 3112#0: *3 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:48 [emerg] 3112#0: *3 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:48 [emerg] 3112#0: *3 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:48 [emerg] 3112#0: *3 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:48 [alert] 3102#0: worker process 3112 exited on signal 11 (core dumped)
+2015/09/01 16:57:51 [emerg] 3114#0: *4 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:51 [emerg] 3114#0: *4 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:51 [emerg] 3114#0: *4 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:51 [emerg] 3114#0: *4 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 16:57:51 [alert] 3102#0: worker process 3114 exited on signal 11 (core dumped)
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 17:02:35 [emerg] 3204#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [emerg] 3204#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:35 [notice] 3204#0: signal process started
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 17:02:41 [emerg] 3206#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:41 [emerg] 3206#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:02:45 [emerg] 3209#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:45 [emerg] 3209#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:45 [emerg] 3209#0: *1 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:45 [emerg] 3209#0: *1 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:45 [alert] 3208#0: worker process 3209 exited on signal 11 (core dumped)
+2015/09/01 17:02:46 [emerg] 3214#0: *2 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:46 [emerg] 3214#0: *2 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:46 [emerg] 3214#0: *2 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:46 [emerg] 3214#0: *2 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:46 [alert] 3208#0: worker process 3214 exited on signal 11 (core dumped)
+2015/09/01 17:02:48 [emerg] 3218#0: *3 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:48 [emerg] 3218#0: *3 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:48 [emerg] 3218#0: *3 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:48 [emerg] 3218#0: *3 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:02:48 [alert] 3208#0: worker process 3218 exited on signal 11 (core dumped)
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 17:05:16 [emerg] 3270#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [emerg] 3270#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:16 [notice] 3270#0: signal process started
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/01 17:05:20 [emerg] 3272#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:20 [emerg] 3272#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/01 17:05:25 [emerg] 3275#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:25 [emerg] 3275#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:25 [emerg] 3275#0: *1 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:25 [emerg] 3275#0: *1 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:25 [alert] 3274#0: worker process 3275 exited on signal 11 (core dumped)
+2015/09/01 17:05:26 [emerg] 3279#0: *2 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:26 [emerg] 3279#0: *2 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:26 [emerg] 3279#0: *2 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:26 [emerg] 3279#0: *2 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:26 [alert] 3274#0: worker process 3279 exited on signal 11 (core dumped)
+2015/09/01 17:05:28 [emerg] 3284#0: *3 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:28 [emerg] 3284#0: *3 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:28 [emerg] 3284#0: *3 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:28 [emerg] 3284#0: *3 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:28 [alert] 3274#0: worker process 3284 exited on signal 11 (core dumped)
+2015/09/01 17:05:31 [emerg] 3286#0: *4 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:31 [emerg] 3286#0: *4 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:31 [emerg] 3286#0: *4 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:31 [emerg] 3286#0: *4 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/01 17:05:31 [alert] 3274#0: worker process 3286 exited on signal 11 (core dumped)
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 09:42:00 [emerg] 6359#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [emerg] 6359#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:00 [notice] 6359#0: signal process started
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 09:42:03 [emerg] 6361#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:03 [emerg] 6361#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:42:34 [emerg] 6364#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:34 [emerg] 6364#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:34 [emerg] 6364#0: *1 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:34 [emerg] 6364#0: *1 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:34 [alert] 6363#0: worker process 6364 exited on signal 11 (core dumped)
+2015/09/02 09:42:35 [emerg] 6414#0: *2 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:35 [emerg] 6414#0: *2 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:35 [emerg] 6414#0: *2 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:35 [emerg] 6414#0: *2 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:35 [alert] 6363#0: worker process 6414 exited on signal 11 (core dumped)
+2015/09/02 09:42:37 [emerg] 6418#0: *3 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:37 [emerg] 6418#0: *3 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:37 [emerg] 6418#0: *3 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:37 [emerg] 6418#0: *3 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:37 [alert] 6363#0: worker process 6418 exited on signal 11 (core dumped)
+2015/09/02 09:42:40 [emerg] 6420#0: *4 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:40 [emerg] 6420#0: *4 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:40 [emerg] 6420#0: *4 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:40 [emerg] 6420#0: *4 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:42:40 [alert] 6363#0: worker process 6420 exited on signal 11 (core dumped)
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 09:46:10 [emerg] 6432#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:46:10 [emerg] 6432#0: still could not bind()
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 09:47:01 [emerg] 6436#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [emerg] 6436#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:47:01 [notice] 6436#0: signal process started
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 09:51:14 [emerg] 6460#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:51:14 [emerg] 6460#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:53:35 [emerg] 6463#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST / HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:53:35 [emerg] 6463#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST / HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:53:35 [emerg] 6463#0: *1 empty!, client: 192.168.72.245, server: localhost, request: "POST / HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:53:35 [emerg] 6463#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST / HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:53:35 [emerg] 6463#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST / HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:53:35 [emerg] 6463#0: *1 empty!, client: 192.168.72.245, server: localhost, request: "POST / HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:56:48 [alert] 6462#0: worker process 6463 exited on signal 9
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 09:57:08 [emerg] 6510#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:60
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:63
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:67
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:71
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:117
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:141
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:145
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:150
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2015/09/02 09:57:08 [emerg] 6510#0: still could not bind()
+2015/09/02 09:57:46 [emerg] 6507#0: *2 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:57:46 [emerg] 6507#0: *2 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:57:46 [emerg] 6507#0: *2 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:57:46 [emerg] 6507#0: *2 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:10 [alert] 6462#0: worker process 6507 exited on signal 11 (core dumped)
+2015/09/02 09:59:11 [emerg] 6523#0: *3 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:11 [emerg] 6523#0: *3 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:11 [emerg] 6523#0: *3 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:11 [emerg] 6523#0: *3 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:11 [alert] 6462#0: worker process 6523 exited on signal 11 (core dumped)
+2015/09/02 09:59:13 [emerg] 6527#0: *4 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:13 [emerg] 6527#0: *4 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:13 [emerg] 6527#0: *4 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:13 [emerg] 6527#0: *4 request_body is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 09:59:13 [alert] 6462#0: worker process 6527 exited on signal 11 (core dumped)
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 10:28:39 [emerg] 6632#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:61
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:64
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:68
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:72
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:118
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:118
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:142
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:146
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [emerg] 6632#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:28:39 [notice] 6632#0: signal process started
+2015/09/02 10:59:53 [alert] 6462#0: worker process 6529 exited on signal 9
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_preconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:19
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:37
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:45
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:55
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:59
+2015/09/02 10:59:53 [emerg] 6771#0: hello_string:location_hello in /home/zuolj/nginx/conf/nginx.conf:61
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:64
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:68
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:72
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:118
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:118
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:142
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_create_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:146
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_init_main_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_srv_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_merge_loc_conf is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 10:59:53 [emerg] 6771#0: ngx_http_hello_postconfiguration is called in /home/zuolj/nginx/conf/nginx.conf:151
+2015/09/02 11:00:48 [emerg] 6774#0: *1 ngx_http_hello_handler is called, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 get ngx_http_hello_loc_conf_t, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 string is not empty, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 cl->next is NULL p:post=81726ÍÊ, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 len : 10, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 after calculate len : 10, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 body : post=81726!, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 rc : 0, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 els, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 Host->key: Host, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 Host->value: 192.168.72.245, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 User-Agent->key: User-Agent, client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
+2015/09/02 11:00:48 [emerg] 6774#0: *1 User-Agent->value: Wget/1.12 (linux-gnu), client: 192.168.72.245, server: localhost, request: "POST /hello HTTP/1.0", host: "192.168.72.245"
