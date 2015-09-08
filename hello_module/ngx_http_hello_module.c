@@ -38,8 +38,6 @@ static void *ngx_http_hello_create_loc_conf(ngx_conf_t *cf);
 */
 static char *ngx_http_hello_merge_loc_conf(ngx_conf_t *cf,void *prev,void *conf);
 
-void ngx_http_test_body_handler(ngx_http_request_t *r);
-
 static ngx_command_t ngx_http_hello_commands[] = {
 	{
 		ngx_string("hello_string"),		/* 配置项名称 */
@@ -197,9 +195,6 @@ static ngx_int_t ngx_http_hello_handler(ngx_http_request_t *r)
 		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"string is not empty");
 		ngx_sprintf(ngx_hello_string,"%V<br>",&my_conf->hello_string);
 
-		rc = ngx_http_read_client_request_body(r,ngx_http_test_body_handler);
-
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"rc : %d",rc);
 	}
 	content_length = ngx_strlen(ngx_hello_string);
 	ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"els");
@@ -207,9 +202,6 @@ static ngx_int_t ngx_http_hello_handler(ngx_http_request_t *r)
 	ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"Host->value: %s",r->headers_in.host->value.data);
 	ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"User-Agent->key: %s",r->headers_in.user_agent->key.data);
 	ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"User-Agent->value: %s",r->headers_in.user_agent->value.data);
-	/*if(r->headers_in.accept == NULL){
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"Accept is NULL");
-	}*/
 	//ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"Accept->key: %s",r->headers_in.accept->key.data);
 	//ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"Accept->value: %s",r->headers_in.accept->value.data);
 	//ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"Accept-Language->key: %s",r->headers_in.accept_language->key.data);
@@ -217,9 +209,9 @@ static ngx_int_t ngx_http_hello_handler(ngx_http_request_t *r)
 	//ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"Content-Type->key: %s",r->headers_in.content_type->key.data);
 	//ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"Content-Type->value: %s",r->headers_in.content_type->value.data);
 
-	/*if (!(r->method & (NGX_HTTP_GET | NGX_HTTP_HEAD))){
+	if (!(r->method & (NGX_HTTP_GET | NGX_HTTP_HEAD))){
 		return NGX_HTTP_NOT_ALLOWED;
-	}*/
+	}
 	rc = ngx_http_discard_request_body(r);
 	if(rc != NGX_OK){
 		return rc;
@@ -253,58 +245,3 @@ static ngx_int_t ngx_http_hello_handler(ngx_http_request_t *r)
 	return ngx_http_output_filter(r,&out);
 }
 
-void ngx_http_test_body_handler(ngx_http_request_t *r)
-{
-	u_char *p;
-	size_t len;
-	ngx_buf_t *buf;
-	ngx_chain_t *cl;
-
-	if(r->request_body == NULL || r->request_body->bufs == NULL || r->request_body->temp_file){
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"request_body is empty");
-	}
-
-	cl = r->request_body->bufs;
-	if(cl == NULL){
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"buffer_chain is NULL");
-	}
-	buf = cl->buf;
-	if(buf == NULL){
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"buffer is NULL");
-	}
-
-	if (cl->next == NULL){
-		len = buf->last - buf->pos;
-		p = buf->pos;
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"cl->next is NULL p:%s",p);
-	}
-
-	len = buf->last - buf->pos;
-	cl = cl->next;
-	ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"len : %d",len);
-
-	for(; cl ; cl = cl->next){
-		buf = cl->buf;
-		len += buf->last - buf->pos;
-	}
-
-	ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"after calculate len : %d",len);
-
-	p = malloc(len*sizeof(u_char));
-
-	cl = r->request_body->bufs;
-	for(; cl ; cl = cl->next){
-		buf = cl->buf;
-		p = (u_char*)memcpy(p,buf->pos,buf->last - buf->pos) + (buf->last - buf->pos);
-	}
-
-	p = p-len;
-
-	if(p == NULL){
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"p is NULL");
-	}
-	else{
-		ngx_log_error(NGX_LOG_EMERG,r->connection->log,0,"body : %s",p);
-		//ngx_sprintf(ngx_hello_string+ngx_strlen(ngx_hello_string),"body:%s",p);
-	}
-}
