@@ -1,7 +1,7 @@
-#define NGX_CONFIGURE " --prefix=/home/zuolj/nginx --with-http_ssl_module --add-module=/home/zuolj/hello_module --add-module=/home/zuolj/calc_module --add-module=/home/zuolj/myssl_module --add-module=/home/zuolj/cookie_module"
+#define NGX_CONFIGURE " --prefix=/home/zuolj/nginx --with-http_ssl_module --add-module=/home/zuolj/calc_module --add-module=/home/zuolj/myssl_module --add-module=/home/zuolj/cookie_module --add-module=/home/zuolj/getbody_module --add-module=/home/zuolj/sscctest_module"
 
 #ifndef NGX_COMPILER
-#define NGX_COMPILER  "gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) "
+#define NGX_COMPILER  "gcc 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) "
 #endif
 
 

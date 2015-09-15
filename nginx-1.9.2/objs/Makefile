@@ -218,10 +218,11 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_upstream_least_conn_module.o \
 	objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
 	objs/src/http/modules/ngx_http_upstream_zone_module.o \
-	objs/addon/hello_module/ngx_http_hello_module.o \
 	objs/addon/calc_module/ngx_http_calc_module.o \
 	objs/addon/myssl_module/ngx_http_getssl_module.o \
 	objs/addon/cookie_module/ngx_http_cookie_module.o \
+	objs/addon/getbody_module/ngx_http_getbody_module.o \
+	objs/addon/sscctest_module/ngx_http_sscctest_module.o \
 	objs/ngx_modules.o
 
 	$(LINK) -o objs/nginx \
@@ -338,10 +339,11 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_upstream_least_conn_module.o \
 	objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
 	objs/src/http/modules/ngx_http_upstream_zone_module.o \
-	objs/addon/hello_module/ngx_http_hello_module.o \
 	objs/addon/calc_module/ngx_http_calc_module.o \
 	objs/addon/myssl_module/ngx_http_getssl_module.o \
 	objs/addon/cookie_module/ngx_http_cookie_module.o \
+	objs/addon/getbody_module/ngx_http_getbody_module.o \
+	objs/addon/sscctest_module/ngx_http_sscctest_module.o \
 	objs/ngx_modules.o \
 	-lpthread -lcrypt -lpcre -lssl -lcrypto -ldl -lz
 	
@@ -1145,13 +1147,6 @@ objs/src/http/modules/ngx_http_upstream_zone_module.o:	$(CORE_DEPS) $(HTTP_DEPS)
 		src/http/modules/ngx_http_upstream_zone_module.c
 
 
-objs/addon/hello_module/ngx_http_hello_module.o:	$(ADDON_DEPS) \
-	/home/zuolj/hello_module/ngx_http_hello_module.c
-	$(CC) -c $(CFLAGS)  $(ALL_INCS) \
-		-o objs/addon/hello_module/ngx_http_hello_module.o \
-		/home/zuolj/hello_module/ngx_http_hello_module.c
-
-
 objs/addon/calc_module/ngx_http_calc_module.o:	$(ADDON_DEPS) \
 	/home/zuolj/calc_module/ngx_http_calc_module.c
 	$(CC) -c $(CFLAGS)  $(ALL_INCS) \
@@ -1171,6 +1166,20 @@ objs/addon/cookie_module/ngx_http_cookie_module.o:	$(ADDON_DEPS) \
 	$(CC) -c $(CFLAGS)  $(ALL_INCS) \
 		-o objs/addon/cookie_module/ngx_http_cookie_module.o \
 		/home/zuolj/cookie_module/ngx_http_cookie_module.c
+
+
+objs/addon/getbody_module/ngx_http_getbody_module.o:	$(ADDON_DEPS) \
+	/home/zuolj/getbody_module/ngx_http_getbody_module.c
+	$(CC) -c $(CFLAGS)  $(ALL_INCS) \
+		-o objs/addon/getbody_module/ngx_http_getbody_module.o \
+		/home/zuolj/getbody_module/ngx_http_getbody_module.c
+
+
+objs/addon/sscctest_module/ngx_http_sscctest_module.o:	$(ADDON_DEPS) \
+	/home/zuolj/sscctest_module/ngx_http_sscctest_module.c
+	$(CC) -c $(CFLAGS)  $(ALL_INCS) \
+		-o objs/addon/sscctest_module/ngx_http_sscctest_module.o \
+		/home/zuolj/sscctest_module/ngx_http_sscctest_module.c -I /home/zuolj/sscctest_module
 
 
 manpage:	objs/nginx.8
