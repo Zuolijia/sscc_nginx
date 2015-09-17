@@ -30,12 +30,7 @@ static ngx_int_t ngx_get_args_array(ngx_http_request_t *r, ngx_array_t *a); //ar
 static ngx_http_sscc_handler_pt handler = NULL;
 ngx_http_sscctest_request_t sscc_C_request;
 ngx_http_sscctest_response_t sscc_C_response;
-/*typedef struct 
-{
-    ngx_http_sscc_handler_pt handler;
 
-}ngx_http_sscctest_loc_conf_t;
-*/
 static ngx_command_t ngx_http_sscctest_commands[]={
 	{
 		ngx_string("flag"),
@@ -93,7 +88,7 @@ static ngx_int_t ngx_get_args_array(ngx_http_request_t *r, ngx_array_t *a)
     last = p + r->args.len;
     
 
-    for ( /* void */ ; p < last; p++) {
+    for (  ; p < last; p++) {
 
         if (p == r->args.data || *(p - 1) == '&') {
 
@@ -127,52 +122,51 @@ static char * ngx_http_sscctest(ngx_conf_t *cf, ngx_command_t *cmd, void *conf) 
     return NGX_CONF_OK;
 }
 
-static ngx_int_t ngx_http_sscctest_postconfiguration(ngx_conf_t *cf){
+static ngx_int_t ngx_http_sscctest_postconfiguration(ngx_conf_t *cf)
+{
     //my_cf = ngx_http_get_module_loc_conf(r,ngx_http_sscctest_module);
     void *pdlHandle;//动态链接库文件解析句柄
-        char *pszErr;//动态链接库解析错误指针
-        pdlHandle = dlopen("/home/zuolj/sscc_handler/mylib.so", RTLD_LAZY); // RTLD_LAZY 延迟加载
-        ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "after dlopen\n");
-        pszErr = dlerror();
-        ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "after dlerror\n");
-        if( !pdlHandle || pszErr )
-        {
-            ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "ngx_http_sscctest_create_loc_conf: Load mylib failed!\n");
-            ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "error : %s\n",pszErr);
-        }
-        ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "Load success\n");
-        ngx_http_handler_init init_pt;
-        init_pt = dlsym(pdlHandle,"init");
-        if (init_pt == NULL){
-            printf("init_pt is null\n");
-        }
-        handler = dlsym(pdlHandle,"example_handler");
-        if (handler == NULL){
-            printf("example_handler is not found\n");
-        }
-        init_pt();
-        return NGX_OK;
+    char *pszErr;//动态链接库解析错误指针
+    pdlHandle = dlopen("/home/zuolj/sscc_handler/mylib.so", RTLD_LAZY); // RTLD_LAZY 延迟加载
+    ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "after dlopen\n");
+    pszErr = dlerror();
+    ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "after dlerror\n");
+    if( !pdlHandle || pszErr )
+    {
+        ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "ngx_http_sscctest_create_loc_conf: Load mylib failed!\n");
+        ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "error : %s\n",pszErr);
+    }
+    ngx_conf_log_error(NGX_LOG_EMERG, cf, 0, "Load success\n");
+    ngx_http_handler_init init_pt;
+    init_pt = dlsym(pdlHandle,"init");
+    if (init_pt == NULL){
+        printf("init_pt is null\n");
+    }
+    handler = dlsym(pdlHandle,"example_handler");
+    if (handler == NULL){
+        printf("example_handler is not found\n");
+    }
+    init_pt();
+    return NGX_OK;
 }
 
 static ngx_int_t ngx_http_sscctest_handler(ngx_http_request_t *r)
 {
-	ngx_int_t rc;
+	ngx_int_t rc = 0;
+    ngx_buf_t *b;
 	ngx_chain_t out;
-    ngx_array_t *args;
 
+    sscc_C_request.query = NULL;
     /**************************    sscc_C_request结构体query赋值       *******************************/
-    args = ngx_array_create(r->pool, 20, sizeof(ngx_table_elt_t));
-    // static ngx_int_t ngx_get_args_array(ngx_http_request_t *r, ngx_array_t *a)
+    sscc_C_request.query = ngx_array_create(r->pool, 20, sizeof(ngx_table_elt_t));
+    //static ngx_int_t ngx_get_args_array(ngx_http_request_t *r, ngx_array_t *a)
     // 可以拿HTTP GET的参数。
     // 第一个参数是ngx_http_request_t；
     // 第二个参数是已经创建的用于存储args的key value对的数组指针
-    //ngx_log_error(NGX_LOG_EMERG, r->connection->log, 0, "ngx_get_args_array is init!\n");
-    rc = ngx_get_args_array(r,args);
+    rc = ngx_get_args_array(r,sscc_C_request.query);
     if(rc != NGX_OK){
         ngx_log_error(NGX_LOG_EMERG, r->connection->log, 0, "ngx_get_args_array is error!\n");
     }
-    //ngx_log_error(NGX_LOG_EMERG, r->connection->log, 0, "ngx_get_args_array is end!\n");
-    sscc_C_request.query = args;
 
     /**************************    sscc_C_request结构体remoteAddr赋值      *******************************/
     struct sockaddr_in *ip = (struct sockaddr_in *) (r->connection->sockaddr); //inet_ntoa(ip->sin_addr) , ntohs(ip->sin_port)
@@ -207,12 +201,18 @@ static ngx_int_t ngx_http_sscctest_handler(ngx_http_request_t *r)
     //复制了一个ngx_http_headers_in_t结构体
     sscc_C_request.headers_in = r->headers_in;
 
+    sscc_C_response.headers_out = &r->headers_out;
+
     /*************************  调用的handler  **********************/
     ngx_log_error(NGX_LOG_EMERG, r->connection->log, 0, "Ready to call handler\n");
 
     if(handler == NULL){
         ngx_log_error(NGX_LOG_EMERG, r->connection->log, 0, "example_handler can not found here\n");
         return NGX_ERROR;
+    }
+    if(sscc_C_response.content.len == 0){
+        printf("free response content data\n");
+        free(sscc_C_response.content.data);
     }
     handler(&sscc_C_request, &sscc_C_response);
 
@@ -229,24 +229,28 @@ static ngx_int_t ngx_http_sscctest_handler(ngx_http_request_t *r)
             return ngx_http_send_header(r);
     }
 
-    out= sscc_C_response.buffers;
-
     /* send the headers of your response */
-    ngx_str_t type = ngx_string("text/html");
-    r->headers_out.status = sscc_C_response.status;
-    r->headers_out.content_length_n = sscc_C_response.content.len;
-    //r->headers_out.content_type = sscc_C_response.headers_out.content_type;
-    r->headers_out.content_type = type;
-    ngx_log_error(NGX_LOG_EMERG, r->connection->log, 0, "content_type : %V\n",&r->headers_out.content_type);
-
     rc = ngx_http_send_header(r);
-
     if (rc == NGX_ERROR || rc > NGX_OK || r->header_only) {
             return rc;
     }
+    
+    b = ngx_pcalloc(r->pool,sizeof(ngx_buf_t));
+    if (b == NULL){
+        printf("malloc ngx_buf_t fault\n");
+        return NGX_ERROR;
+    }
+
+    b->pos = sscc_C_response.content.data;
+    b->last = sscc_C_response.content.data + sscc_C_response.content.len;
+    b->memory = 1;
+    b->last_buf = 1;
+
+    out.buf = b;
+    out.next = NULL;
 
     /* send the buffer chain of your response */
     ngx_array_destroy(sscc_C_request.query);
-    ngx_array_destroy(args);
+    sscc_C_response.content.len = 0;
     return ngx_http_output_filter(r, &out);
 }

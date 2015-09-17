@@ -16,7 +16,6 @@ int ngx_http_sscctest_realhandler_test2(struct Request *req,struct Reply *rep){
 	rep->status = Reply::ok;
 	rep->content = "<center><strong><font color='red'>Expires : </font>Web, 24 Aug 2016 23:00:00 GMT</strong></center>";
 
-	/*rep->headers.clear();
 	struct Header h; //返回头部信息
 	h.name.assign("Expires");
 	h.value.assign("Web, 24 Aug 2016 23:00:00 GMT");
@@ -25,16 +24,16 @@ int ngx_http_sscctest_realhandler_test2(struct Request *req,struct Reply *rep){
 	h.name.clear();
 	h.value.clear();
 
-	h.name.assign("Cache-Control");
-	h.value.assign("max-age=7200");
+	h.name.assign("Content-Type");
+	h.value.assign("text/html");
 	rep->headers.push_back(h);
 
 	h.name.clear();
 	h.value.clear();
 
-	h.name.assign("Content-Type");
-	h.value.assign("text/html");
-	rep->headers.push_back(h);*/
+	h.name.assign("Cache-Control");
+	h.value.assign("max-age=7200");
+	rep->headers.push_back(h);
 
 	return 1;
 }

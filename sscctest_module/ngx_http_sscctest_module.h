@@ -45,19 +45,13 @@ struct ngx_http_sscctest_response_s
         bad_gateway = 502,
         service_unavailable = 503
     } status;
-    ngx_http_headers_out_t headers_out;
+    ngx_http_headers_out_t *headers_out;
     ngx_str_t content;
-    ngx_chain_t buffers;
 };
 
 //真正处理函数
 typedef ngx_int_t (*ngx_http_sscc_handler_pt)(ngx_http_sscctest_request_t *req, ngx_http_sscctest_response_t *resp);
 typedef ngx_int_t (*ngx_http_handler_init)();
-
-/*typedef struct{
-	ngx_str_t arg;
-	ngx_http_real_handler_pt handler_func;
-}unit_t;*/
 
 
 #endif /*_NGX_HTTP_SSCCTEST_MODULE_H_INCLUDED_*/

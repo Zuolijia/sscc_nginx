@@ -19,20 +19,25 @@ int ngx_http_sscctest_realhandler_test(struct Request *req,struct Reply *rep){
 	printf("content : %s\n",rep->content.c_str());
 
 	
-	/*struct Header h1; //返回头部信息
-	h1.name.assign("Expires");
-	h1.value.assign("Web, 24 Aug 2016 23:00:00 GMT");
-	rep->headers.push_back(h1);
+	struct Header h; //返回头部信息
+	h.name.assign("Expires");
+	h.value.assign("Web, 24 Aug 2016 23:00:00 GMT");
+	rep->headers.push_back(h);
 
-	struct Header h2;
-	h2.name.assign("Cache-Control");
-	h2.value.assign("max-age=7200");
-	rep->headers.push_back(h2);
+	h.name.clear();
+	h.value.clear();
 
-	struct Header h3;
-	h3.name.assign("Content-Type");
-	h3.value.assign("text/html");
-	rep->headers.push_back(h3);*/
+	h.name.assign("Content-Type");
+	h.value.assign("text/html");
+	rep->headers.push_back(h);
+
+	
+	h.name.clear();
+	h.value.clear();
+
+	h.name.assign("Cache-Control");
+	h.value.assign("max-age=7200");
+	rep->headers.push_back(h);
 
 	return 1;
 }

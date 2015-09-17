@@ -29,7 +29,8 @@ ngx_table_elt_t ex;
 /**
  * @初始化载入所有的动态链接库
  */
-ngx_int_t init(){
+ngx_int_t init()
+{
 	fstream fperror("/home/zuolj/sscc_handler/error",std::fstream::out|std::fstream::app);
 	fperror << "Ready Init\n";
 	printf("Ready Init\n");
@@ -251,33 +252,34 @@ void response_CPP_2_C(struct Reply *resp_cpp,ngx_http_sscctest_response_t *resp_
 	}
 
 	/** 内容赋值 **/
-	resp_c->content.data = (u_char *)resp_cpp->content.c_str();
 	resp_c->content.len = resp_cpp->content.length();
-	//resp_c->content.data = (u_char*)malloc(resp_c->content.len*sizeof(u_char));
-	//strcpy((char*)resp_c->content.data,resp_cpp->content.c_str());
+	resp_c->content.data = (u_char *)malloc(sizeof(u_char)*resp_c->content.len);
+	resp_cpp->content.copy((char*)resp_c->content.data,resp_c->content.len);
 
 	/** Header_out赋值 **/
+	resp_c->headers_out->status = resp_c->status;
+    resp_c->headers_out->content_length_n = resp_c->content.len;
 	for(int i = 0; i<resp_cpp->headers.size(); i++){
 		if(resp_cpp->headers[i].name == "Expires"){
 			ex.key.data = (u_char *)resp_cpp->headers[i].name.c_str();
 			ex.key.len = resp_cpp->headers[i].name.length();
 			ex.value.data = (u_char *)resp_cpp->headers[i].value.c_str();
 			ex.value.len = resp_cpp->headers[i].value.length();
-			resp_c->headers_out.expires = &ex;
-			//resp_c->headers_out.expires = (ngx_table_elt_t*)malloc(sizeof(ngx_table_elt_t));
-			//(resp_c->headers_out.expires)->key.data = (u_char *)resp_cpp->headers[i].name.c_str();
-			//(resp_c->headers_out.expires)->key.len = resp_cpp->headers[i].name.length();
-			//(resp_c->headers_out.expires)->value.data = (u_char *)resp_cpp->headers[i].value.c_str();
-			//(resp_c->headers_out.expires)->value.len = resp_cpp->headers[i].value.length();
+			resp_c->headers_out->expires = &ex;
 		}
 		else if(resp_cpp->headers[i].name == "Cache-Control"){
+			ngx_table_elt_t **ccp = NULL;
 			ngx_table_elt_t *set_cache = NULL;
-			resp_c->headers_out.cache_control.nelts = 0;
-			resp_c->headers_out.cache_control.size = sizeof(ngx_table_elt_t *);
-			resp_c->headers_out.cache_control.nalloc = 1;
-			resp_c->headers_out.cache_control.elts = (ngx_table_elt_t *)malloc(sizeof(ngx_table_elt_t *));
-
-			set_cache = (ngx_table_elt_t *)resp_c->headers_out.cache_control.elts + resp_c->headers_out.cache_control.size *resp_c->headers_out.cache_control.nelts;
+			ccp = (ngx_table_elt_t **)resp_c->headers_out->cache_control.elts;
+			if(ccp == NULL){
+				resp_c->headers_out->cache_control.nelts = 0;
+				resp_c->headers_out->cache_control.size = sizeof(ngx_table_elt_t *);
+				resp_c->headers_out->cache_control.nalloc = 1;
+				resp_c->headers_out->cache_control.elts = (ngx_table_elt_t **)malloc(sizeof(ngx_table_elt_t *));
+			}
+			ccp = (ngx_table_elt_t **)resp_c->headers_out->cache_control.elts;
+			
+			set_cache = (ngx_table_elt_t *)resp_c->headers_out->headers.last->elts + resp_c->headers_out->headers.size * resp_c->headers_out->headers.last->nelts;
 
 			if(set_cache == NULL){
 				printf("address of set_cache is NULL\n");
@@ -286,45 +288,30 @@ void response_CPP_2_C(struct Reply *resp_cpp,ngx_http_sscctest_response_t *resp_
 
 			set_cache->hash = 1;
 			string str_cache = "Cache-Control";
-			set_cache->key.data = (u_char *)str_cache.c_str();
+			set_cache->key.data = (u_char*)malloc(sizeof(u_char)*str_cache.length());
+			str_cache.copy((char*)set_cache->key.data,str_cache.length());
 			set_cache->key.len = str_cache.length();
-			set_cache->value.data = (u_char *)resp_cpp->headers[i].value.c_str();
+
 			set_cache->value.len = resp_cpp->headers[i].value.length();
-			resp_c->headers_out.cache_control.nelts = 1;
+			set_cache->value.data = (u_char*)malloc(sizeof(u_char)*set_cache->value.len);
+			resp_cpp->headers[i].value.copy((char*)set_cache->value.data,set_cache->value.len);
+
+			*ccp = set_cache;
+
+			resp_c->headers_out->cache_control.nelts = 1;
 		}
 		else if(resp_cpp->headers[i].name == "Pragma"){
 
 		}
 		else if(resp_cpp->headers[i].name == "Content-Type"){
-			resp_c->headers_out.content_type.data = (u_char *)resp_cpp->headers[i].value.c_str();
-			resp_c->headers_out.content_type.len = resp_cpp->headers[i].value.length();
+			resp_c->headers_out->content_type.len = resp_cpp->headers[i].value.length();
+			resp_c->headers_out->content_type.data = (u_char *)malloc(sizeof(u_char)*resp_c->headers_out->content_type.len);
+			resp_cpp->headers[i].value.copy((char*)resp_c->headers_out->content_type.data,resp_c->headers_out->content_type.len);
 		}
 		else{
 			;
 		}
 	}
-
-	/** buffers赋值 **/
-	ngx_buf_t *b;
-	u_char ngx_string[1024] = {0};
-	//u_char *ngx_string = (u_char *)malloc((resp_cpp->content.length()+1)*sizeof(u_char));
-	//memset(ngx_string,0,(resp_cpp->content.length()+1)*sizeof(u_char));
-	b = (ngx_buf_t *)malloc(sizeof(ngx_buf_t));
-	if (b == NULL){
-		printf("malloc ngx_buf_t fault\n");
-		return ;
-	}
-
-	memcpy(ngx_string,resp_cpp->content.c_str(),resp_cpp->content.length());
-
-	b->pos = ngx_string;
-	b->last = ngx_string + resp_cpp->content.length();
-	b->memory = 1;
-	b->last_buf = 1;
-
-	resp_c->buffers.buf = b;
-	resp_c->buffers.next = NULL;
-	//free(ngx_string);
 }
 
 
