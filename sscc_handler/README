@@ -1,0 +1,12 @@
+# 保存handler插件的相关文件
+1.mylib.so : 总的插件文件，负责初始化所有的插件，以及选择调用其他插件
+2.handler_example.cpp : mylib.so的源码文件
+3.makefile : MakeFile文件，提供make和make clean两个指令，make用于生成mylib.so，make clean删除该目录下所有的so文件
+4.error : 运行mylib.so打印error的logs文件
+5.sscctest : 配置文件，保存real_handler插件的名称以及插件中真正处理函数的函数名
+6.request_test.h、reply_test.h、header_test.h : 分别对应ump项目中request.h、reply.h、header.h，这里把ump项目中三个头文件提取出来
+7./realhandler : 目录存放realhandler插件的相关文件
+
+
+
+该目录（.../zuolj/sscc_handler）是将在虚拟服务器上的 /home/zuolj/sscc_handler目录复制下来的

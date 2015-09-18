@@ -6,6 +6,7 @@
 #include <reply_test.h>
 #include <iostream>
 #include <stdio.h>
+#include <ctime>
 
 
 
@@ -21,9 +22,9 @@ typedef int (*real_handler_pt)(struct Request *req,struct Reply *rep);
 void request_C_2_CPP(ngx_http_sscctest_request_t *req_c,struct Request *req_cpp);
 void response_CPP_2_C(struct Reply *resp_cpp,ngx_http_sscctest_response_t *resp_c);
 
-static map<string,real_handler_pt> m;
-void *pdl = NULL; //动态链接库文件解析句柄
-char *pErr = NULL; //动态链接库解析错误指针
+static map<string,real_handler_pt> m;	//保存所有的动态库文件中realhandler函数的指针地址
+void *pdl = NULL; 						//动态链接库文件解析句柄
+char *pErr = NULL; 						//动态链接库解析错误指针
 ngx_table_elt_t ex;
 
 /**
@@ -32,12 +33,16 @@ ngx_table_elt_t ex;
 ngx_int_t init()
 {
 	fstream fperror("/home/zuolj/sscc_handler/error",std::fstream::out|std::fstream::app);
-	fperror << "Ready Init\n";
-	printf("Ready Init\n");
+	time_t now_time;
+	time(&now_time);
+	fperror << ctime(&now_time);
+	fperror << "Ready Init\n\n";
+
 	FILE *file = NULL;
 	file=fopen("/home/zuolj/sscc_handler/sscctest","r");
 	if(file == NULL){
-		fperror << "Error opening file\n";
+		fperror << ctime(&now_time);
+		fperror << "Error opening file\n\n";
 		return 0;
 	}
 	char ch;
@@ -48,31 +53,34 @@ ngx_int_t init()
 	while(fscanf(file,"%s %s",k,v)==2){
 		string key(k);
 		string value(v);
-		cout << key << "\n" << value << "\n";
+		
 		string path_of_so = "/home/zuolj/sscc_handler/realhandler/"+key+".so";
 		pdl = dlopen(path_of_so.c_str(),RTLD_LAZY);
 		pErr = dlerror();
 		if(!pdl || pErr)
 		{
-			fperror << "Load " << key << ".so failed\n";
+			fperror << ctime(&now_time);
+			fperror << "Load " << key << ".so failed\n\n";
 			return 0;
 		}
-		fperror << "Load " << key << ".so successful\n";
+		fperror << ctime(&now_time);
+		fperror << "Load " << key << ".so successful\n\n";
 		real_handler_pt pt = (real_handler_pt)dlsym(pdl,value.c_str());
 		if(pt == NULL){
-			printf("real_handler_pt is NULL\n");
-			fperror << "real_handler_pt is NULL\n";
+			fperror << ctime(&now_time);
+			fperror << "real_handler_pt is NULL\n\n";
 		}
 		else{
 			m.insert(pair<string,real_handler_pt>(key,pt));
-			fperror << "push one element to m\n"; 
+			fperror << ctime(&now_time);
+			fperror << "push one element to m\n\n"; 
 			key.clear();
 			value.clear();
 		}
 	}
 	fclose(file);
-	fperror << "Init over\n";
-	printf("Init over\n");
+	fperror << ctime(&now_time);
+	fperror << "Init over\n\n";
 	fperror.close();
 	return 1;
 }
@@ -82,32 +90,34 @@ ngx_int_t example_handler(ngx_http_sscctest_request_t *req_c,ngx_http_sscctest_r
 	struct Request req_cpp;
 	struct Reply resp_cpp;
 	fstream fperror("/home/zuolj/sscc_handler/error",std::fstream::out|std::fstream::app);
-	fperror << "example_handler is called\n";
-	printf("example_handler is called\n");
+	time_t now_time;
+	time(&now_time);
+	fperror << ctime(&now_time);
+	fperror << "example_handler is called\n\n";
 
 	request_C_2_CPP(req_c,&req_cpp);
 	multimap<string, string>::iterator it = req_cpp.querys.find("handler_name");
 	if (it == req_cpp.querys.end()){
-		fperror << "can not find handler_name arg\n";
+		fperror << ctime(&now_time);
+		fperror << "can not find handler_name arg\n\n";
 		fperror.close();
 		return 0;
 	}
-	fperror << (*it).second <<"\n";
-	fperror << "map.size : "<<m.size()<<"\n";
-	printf("map.size : %d\n",m.size());
 
 	map<string,real_handler_pt>::iterator ih = m.find((*it).second);
 	if (ih == m.end()){
-		fperror << "cannot find realhandler\n";
+		fperror << ctime(&now_time);
+		fperror << "cannot find realhandler\n\n";
 		fperror.close();
 		return 0;
 	}
-	printf("find realhandler\n");
+
 	if ((*ih).second){
 		(*ih).second(&req_cpp,&resp_cpp);
 	}
 	else{
-		printf("realhandler is null");
+		fperror << ctime(&now_time);
+		fperror << "realhandler is null\n\n";
 		return 0;
 	}
 
@@ -127,6 +137,7 @@ void request_C_2_CPP(ngx_http_sscctest_request_t *req_c,struct Request *req_cpp)
 	req_cpp->method.assign((char *)req_c->method.data,req_c->method.len);
 	/** 用户请求的完整uri赋值 **/
 	req_cpp->uri.assign((char *)req_c->uri.data,req_c->uri.len);
+	req_cpp->uri += "?";
 	/** HTTP主版本号赋值 **/
 	req_cpp->httpVersionMajor = req_c->httpVersionMajor;
 	/** HTTP副版本号赋值 **/
@@ -188,6 +199,7 @@ void request_C_2_CPP(ngx_http_sscctest_request_t *req_c,struct Request *req_cpp)
 		key.assign((char *)((ngx_table_elt_t *)req_c->query->elts)[i].key.data,((ngx_table_elt_t *)req_c->query->elts)[i].key.len);
 		value.assign((char *)((ngx_table_elt_t *)req_c->query->elts)[i].value.data,((ngx_table_elt_t *)req_c->query->elts)[i].value.len);
 		req_cpp->querys.insert(pair<string,string>(key,value));
+		req_cpp->uri += (key + "=" + value);
 	}
 
 	/** 用户请求的路径，不含查询串 **/
@@ -299,9 +311,6 @@ void response_CPP_2_C(struct Reply *resp_cpp,ngx_http_sscctest_response_t *resp_
 			*ccp = set_cache;
 
 			resp_c->headers_out->cache_control.nelts = 1;
-		}
-		else if(resp_cpp->headers[i].name == "Pragma"){
-
 		}
 		else if(resp_cpp->headers[i].name == "Content-Type"){
 			resp_c->headers_out->content_type.len = resp_cpp->headers[i].value.length();

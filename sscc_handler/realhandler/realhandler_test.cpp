@@ -1,6 +1,7 @@
 #include <request_test.h>
 #include <reply_test.h>
 #include <fstream>
+#include <ctime>
 
 using namespace std;
 
@@ -10,12 +11,16 @@ extern "C"{
 
 int ngx_http_sscctest_realhandler_test(struct Request *req,struct Reply *rep){
 	fstream fpdebug("/home/zuolj/sscc_handler/realhandler/error",std::fstream::out|std::fstream::app);
-	fpdebug << "open realhandler_test success\n";
-	printf("In realhandler\n");
+	time_t now_time;
+	time(&now_time);
+	fpdebug << ctime(&now_time);
+	fpdebug << "open realhandler_test success\n\n";
 
 	rep->status = Reply::ok;
 	rep->content = "<center><strong><font color='red'>RemoteAddress : </font>"+req->remoteAddress +"</strong></center>";
 
+	fpdebug << ctime(&now_time);
+	fpdebug << "content : " << rep->content << "\n\n";
 	printf("content : %s\n",rep->content.c_str());
 
 	

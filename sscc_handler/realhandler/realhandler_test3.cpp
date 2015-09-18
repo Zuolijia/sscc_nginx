@@ -5,18 +5,19 @@
 using namespace std;
 
 extern "C"{
-	int ngx_http_sscctest_realhandler_test2(struct Request *req,struct Reply *rep);
+	int ngx_http_sscctest_realhandler_test3(struct Request *req,struct Reply *rep);
 }
 
-int ngx_http_sscctest_realhandler_test2(struct Request *req,struct Reply *rep){
+int ngx_http_sscctest_realhandler_test3(struct Request *req,struct Reply *rep){
 	fstream fpdebug("/home/zuolj/sscc_handler/realhandler/error",std::fstream::out|std::fstream::app);
 	time_t now_time;
 	time(&now_time);
 	fpdebug << ctime(&now_time);
-	fpdebug << "open realhandler_test2 success\n\n";
+	fpdebug << "open realhandler_test3 success\n\n";
 
 	rep->status = Reply::ok;
-	rep->content = "<center><strong><font color='red'>Expires : </font>Web, 24 Aug 2016 23:00:00 GMT</strong></center>";
+	rep->content = "<center><strong><font color='red'>URL : </font>" + req->uri + "</strong></center><br>" \
+	+ "<center><strong><font color='red'>RequestPath : </font>" + req->requestPath + "</strong></center><br>";
 
 	fpdebug << ctime(&now_time);
 	fpdebug << "content : " << rep->content << "\n\n";
