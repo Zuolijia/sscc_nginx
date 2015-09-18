@@ -49,8 +49,9 @@ struct ngx_http_sscctest_response_s
     ngx_str_t content;
 };
 
-//真正处理函数
+//处理函数，把接收到的请求传给处理函数进行处理，函数内部根据不同的URL选择不同的real handler
 typedef ngx_int_t (*ngx_http_sscc_handler_pt)(ngx_http_sscctest_request_t *req, ngx_http_sscctest_response_t *resp);
+//初始化函数，用于载入所有的动态库文件
 typedef ngx_int_t (*ngx_http_handler_init)();
 
 

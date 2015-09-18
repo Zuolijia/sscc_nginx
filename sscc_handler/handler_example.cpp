@@ -85,6 +85,9 @@ ngx_int_t init()
 	return 1;
 }
 
+/**
+ * @处理函数，根据不同的uri调用不同real插件进行处理
+ */
 ngx_int_t example_handler(ngx_http_sscctest_request_t *req_c,ngx_http_sscctest_response_t *resp_c)
 {
 	struct Request req_cpp;
